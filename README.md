@@ -1,5 +1,5 @@
 # House-Prices---Ames
-A model to predict  house prices with the help of various given features  by applying various regression algorithms
+A model to predict  house prices with the help of various given features  by applying various regression algorithms. 
 In the first step I treated the skewness of the numerical features and the target variable by taking logarithms of the features 
 to convert the variables to Normal Distribution. In the second step I treated the missing values, I filled the missing values in
 numerical features by 0 in the appropriate places and by mean() elsewhere. I the filled the missing values of categorical features
