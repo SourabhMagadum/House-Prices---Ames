@@ -7,4 +7,4 @@ by 'None' and mode wherever appropriate. After there were no missing values left
 numerical features using pandas' get_dummies() funtion to get the data ready for modelling. Then I applied various regression 
 techniques like ridge, lasso, lassoCV and Elastic Net and ensemble techniques like Random Forest and Gradient Boosting Regressor.
 In the last step I calculated the final prediction by taking the weighted means of the predictions of all the models. The weights
-were assigned based on their performance on the cross_val_score() metric.
+were assigned based on their performance on the cross_val_score() metric. A public score of 1.2003 was obtained.
